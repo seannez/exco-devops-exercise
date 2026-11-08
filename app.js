@@ -2,7 +2,7 @@ const http = require("http");
 const os = require("os");
 
 const PORT = 3000;
-const VERSION = process.env.APP_VERSION || "1.0.0";
+const VERSION = process.env.APP_VERSION || "1.0.1";
 const POD_NAME = process.env.HOSTNAME || os.hostname();
 
 const server = http.createServer((req, res) => {
