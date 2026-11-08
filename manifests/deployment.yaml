@@ -16,7 +16,7 @@ spec:
       containers:
         - name: exco-app
           image: exco-app:1.0
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
           readinessProbe:
