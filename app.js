@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
       <html>
         <head><title>DevOps Exercise</title></head>
         <body>
-          <h1>Hello from Kubernetes!</h1>
+          <h1>Hello from EX.CO version 2!</h1>
           <p>App version: ${VERSION}</p>
           <p>Pod name: ${POD_NAME}</p>
         </body>
