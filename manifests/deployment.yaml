@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: exco-app
-          image: ghcr.io/seannez/exco-devops-exercise:a82473ab7a1b21b471a6b364b4a84a1f2671f4aa
+          image: ghcr.io/seannez/exco-devops-exercise:accf8743766cae0cc869dd3d8aaa423e0f5e9b9c
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
